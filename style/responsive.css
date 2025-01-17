@@ -3,6 +3,9 @@
     .nav-links {
         flex-direction: column;
     }
+    .bg-primary {
+        padding: 20px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .navbar {
