@@ -42,6 +42,7 @@ main > section {
     border: none;
     text-align: center;
     transition: 15ms;
+    cursor: pointer;
 }
 .btn-primary:hover {
     opacity: .7;
