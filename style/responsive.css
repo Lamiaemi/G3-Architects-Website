@@ -12,8 +12,7 @@
     grid-template-columns: repeat(1, 1fr);
     }
     .quick-list {
-        margin-left: 20px;
-        margin-top: 40px;
+        margin: 40px auto 0px;
         text-align: center;
     }
     #bnt-secondary {
@@ -22,7 +21,15 @@
     .section-content {
         padding: 0 20px;
     }
-
+    .fact-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 50px auto;
+    justify-items: center;
+    gap: 20px;
+    }
+    .some-facts {
+        margin-left: 20px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .navbar,
@@ -49,5 +56,14 @@
     .quick-list {
     margin: 50px auto;
     text-align: center;
+    }
+    .fact-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px auto;
+    justify-items: center;
+    gap: 20px;
+    }
+    .some-facts {
+        margin-left: 20px;
     }
 }

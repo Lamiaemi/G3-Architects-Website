@@ -22,7 +22,7 @@ main {
     margin: 0 auto;
 }
 main > section {
-    margin-top: 100px;
+    margin: 100px auto;
 }
 /* shared style */
 .bg-primary {
@@ -175,4 +175,43 @@ main > section {
 }
 .feature-architect img {
     max-width: 500px;
+}
+/* some fact styles */
+
+.fact-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px auto;
+    gap: 20px
+}
+.fact-card {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    height: 190px;
+    width: 190px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.fact-icon {
+    width: 30px;
+    height: 30px;
+}
+.fact-number {
+    color: rgb(66, 66, 66);
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 53px;
+    /* letter-spacing: 0%;
+    text-align: left; */
+}
+.fact-name {
+    color: rgb(114, 114, 114);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    /* letter-spacing: 0%;
+    text-align: left; */
 }
