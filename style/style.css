@@ -17,10 +17,17 @@ html {
 img {
     width: 100%;
 }
+main {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+main > section {
+    margin-top: 100px;
+}
 /* shared style */
 .bg-primary {
     background: rgba(255, 144, 14, 0.1);
-    padding: 50px;
+    padding: 30px;
 }
 .btn-primary {
     border-radius: 8px;
@@ -47,7 +54,7 @@ img {
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
-    text-align: center;
+    /* text-align: center; */
     margin: 35px 0px;
 }
 .d-flex {
@@ -69,7 +76,7 @@ img {
     font-weight: 700;
     line-height: 53px;
     letter-spacing: 0%;
-    text-align: center;
+    /* text-align: center; */
 }
 .navbar,
 .banner {
@@ -90,7 +97,7 @@ img {
     text-decoration: none;
     color: rgb(66, 66, 66);
     font-weight: 500;
-    font-size: 1.125rem;
+    font-size: 1.8rem;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
@@ -98,14 +105,36 @@ img {
 /* banner styles */
 .banner-contant {
     max-width: 680px;
-    margin: 115px auto;
+    margin: 50px auto;
     text-align: center;
 }
 .banner-title {
     color: rgb(19, 19, 19);
-    font-size: 6.4rem;
+    font-size: 5.1rem;
     font-weight: 700;
     line-height: 75px;
     letter-spacing: 0%;
     
+}
+/* teams styles */
+.teams {
+    display: flex;
+    align-items: center;
+}
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+.quick-list  {
+    text-align: left;
+    margin-left: 104px;
+    max-width: 424px;
+}
+#Quick-list-text {
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+}
+#Features-text {
+    color: rgb(255, 144, 14);
 }
