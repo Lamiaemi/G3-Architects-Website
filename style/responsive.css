@@ -1,7 +1,8 @@
 @media screen and (max-width: 576px) {
     .navbar,
     .nav-links,
-    .teams {
+    .teams,
+    .loving-features {
         flex-direction: column;
     }
     .bg-primary {
@@ -13,14 +14,40 @@
     .quick-list {
         margin-left: 20px;
         margin-top: 40px;
+        text-align: center;
     }
+    #bnt-secondary {
+        margin: 50px auto; 
+    }
+    .section-content {
+        padding: 0 20px;
+    }
+
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .navbar,
-    .teams {
+    .teams,
+    .loving-features {
         flex-direction: column;
     }
+    .section-content {
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    #bnt-secondary {
+        margin: 50px auto; 
+    }
+    .feature-architect {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-architect img {
+       max-width: auto;
+    }
     .quick-list {
-    margin-top: 50px;
+    margin: 50px auto;
+    text-align: center;
     }
 }
